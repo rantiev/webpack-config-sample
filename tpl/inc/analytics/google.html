@@ -1,0 +1,7 @@
+<% if (htmlWebpackPlugin.options.analytics.google) { %>
+<% if (htmlWebpackPlugin.options.buildMode === 'prod') { %>
+<div>GA production</div>
+<% } else { %>
+<div>GA development</div>
+<% } %>
+<% } %>
